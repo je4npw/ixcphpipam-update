@@ -5,8 +5,11 @@
 $ Criado por Je4nPw $
 
 
-execute o seguinte comando:
-chmod +x update.sh ; ./update.sh
+execute os seguintes comando no terminal:
+
+git clone https://github.com/je4npw/ixcphpipam-update.git
+
+cd ixcphpipam-update ; chmod +x update.sh ; ./update.sh
 
 
 
