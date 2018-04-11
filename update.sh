@@ -8,5 +8,7 @@ mv /var/www/phpipam/app/footer.php /var/www/phpipam/app/footer.old ;
 mv footer.php /var/www/phpipam/app/ ;
 echo -e "Limpando a instalação \n"
 rm README.md ;
-rm update.sh 
+rm update.sh ;
+cd .. ;
+rm -rf ixcphpipam-update ;
 
