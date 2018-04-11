@@ -9,5 +9,8 @@ mv footer.php /var/www/phpipam/app/footer.php ;
 echo -e "Limpando a instalação \n"
 rm README.md ;
 rm update.sh ;
+cd .. ;
+cd .. ; 
+rm -rf tmp ;
 echo -e "Pronto. Esse script fez as alterações de customização para o phpipam instalado pela consultoria IXCsoft." ;
 echo -e "Script criado por Je4nPw"
