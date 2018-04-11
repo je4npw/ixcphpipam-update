@@ -11,4 +11,7 @@ rm README.md ;
 rm update.sh ;
 cd .. ;
 rm -rf ixcphpipam-update ;
-
+cd .. ;
+rm -rf tmp ; 
+echo -e "Pronto. Esse script fez as alterações de customização para o phpipam instalado pela consultoria IXCsoft." ;
+echo -e "Script criado por Je4nPw"
