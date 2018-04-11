@@ -1,5 +1,5 @@
 echo -e "Descompactar arquivo \n" ;
-tar xvfJ ixcphpipam.tar.xz ;
+tar xvfJ ixcphpipam-update.tar.xz ;
 echo -e "Movendo arquivos \n"
 mv logo.png /var/www/phpipam/css/images/logo/ ;
 mv /var/www/phpipam/app/login/index.php /var/www/phpipam/app/login/index.old ;
