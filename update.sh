@@ -7,7 +7,6 @@ mv login-index.php /var/www/phpipam/app/login/index.php ;
 mv /var/www/phpipam/app/footer.php /var/www/phpipam/app/footer.old ;
 mv footer.php /var/www/phpipam/app/footer.php ;
 echo -e "Limpando a instalação \n"
-rm ixcphpipam.tar.xz ;
-rm logo.png ;
-rm login-index.php ;
-rm footer.php
+rm README.md ;
+rm update.sh 
+
